@@ -13,7 +13,7 @@ function myFriend() {
 	var person = prompt("What is your name?")
 	if(person != null){
 	document.getElementById("friend").innerHTML =
-    "Happy New Year "+person+", " + "and thank you for being there for me when I needed it the most!"
+    "Happy New Year "+person+", " + "and thank you for being an awesome friend!"
 	}
 }
 </script> 
