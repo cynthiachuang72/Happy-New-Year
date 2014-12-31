@@ -6,7 +6,7 @@
 </head>
 <body>
 <h1>Welcome my lovely friends!</h1>
-<button onclick="myFriend()"> Hello </button>
+<button onclick="myFriend()"> Happy New Year! </button>
 <p id="friend"></p>
 <script>
 function myFriend() {
