@@ -1,4 +1,26 @@
-h1 {
+body {
+	background-image: url(./1.jpg);
+}
+
+#friend{
+	position: fixed;
+	top: 30%;
+	left: 15%;
+	font-size: 40px;
 	color: red;
-	position: auto;
+}
+
+#all{
+	position: fixed;
+	top:35%;
+	left:37%;
+}
+
+#happy{
+	
+}
+
+#welcome{
+	text-align: center;
+	color: red;
 }

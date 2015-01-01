@@ -1,24 +1,27 @@
 <!DOCTYPE html>
-<html>
-<head>
-<link type = "text/css" rel="stylesheet" href="myFriend.css">
-<title> My Friends</title>
-</head>
-<body>
-<h1>Welcome my lovely friends!</h1>
-<button onclick="myFriend()"> Happy New Year! </button>
-<p id="friend"></p>
-<script>
-function myFriend() {
-	var person = prompt("What is your name?")
-	if(person != null){
-	document.getElementById("friend").innerHTML =
-    "Happy New Year "+person+", " + "and thank you for being an awesome friend!"
-	}
-}
-</script> 
+	<html>
+		<head>
+			<link type = "text/css" rel="stylesheet" href="myFriend.css">
+			<title> My Friends</title>
+		</head>
+	<body>
+		<div id = "all">
+			<h1 id="welcome">Welcome my lovely friends!</h1>
+			<button onclick="myFriend()"> Happy New Year! </button>
+		</div>
+		<p id="friend"></p>
+		<script>
+			function myFriend() {
+				var person = prompt("What is your name?");
+				if(person != null){
+					document.getElementById("friend").innerHTML =
+					"Happy New Year "+person+", " + "and thank you for being an awesome friend!";
+					document.getElementById('all').style.visibility = "hidden";
+				}
+			}
+	</script> 
 
-</body>
+	</body>
 </html>
 
 
